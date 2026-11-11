@@ -3,11 +3,12 @@ window.KOL_DATA = {
     "updated": "2026-11-11",
     "notes": [
       "The tree follows your spreadsheet: Brand, then education team, then IMM, FA, and GBR/CTG. The picture is the layout (navy brand, blue team, teal topics, orange clinicians), not a second data source.",
-      "A clinician stays on a topic branch with more than 2 documented activities from 12 Nov 2025 through 11 Nov 2026. One activity is a PubMed-indexed paper that lists the person and is about teeth, implants, bone, or soft tissue, or one dated public course, lecture, live surgery, webinar, or congress session. A multi-day course counts once. Standing faculty titles, undated biographies, product pages, and anything dated after 11 Nov 2026 do not count. Common-name PubMed hits were checked against the title and the author list.",
+      "A clinician stays on a topic branch with more than 2 documented activities from 12 Nov 2025 through 11 Nov 2026. One activity is a PubMed-indexed paper that lists the person and is about teeth, implants, bone, or soft tissue, or one dated public course, lecture, live surgery, webinar, or congress session. A multi-day course counts once. Standing faculty titles, undated biographies, product pages, and anything dated after 11 Nov 2026 do not count. Common-name PubMed hits were checked against the title and the author list. The immediate, full-arch, or GBR/CTG evidence can fall any time from 11 Nov 2021 through 11 Nov 2026. The activities in the past year do not each have to be on one of those three topics.",
       "The number under a circle is a public follower count read on 11 Nov 2026, from that person’s Instagram profile or, for Dan Holtzclaw, LinkedIn. Email, phone, and the profile link stay in the card. Counts were not estimated. A circle with no number had no public follower total that could be matched to that person.",
       "Brought back after the bar moved from 5 to more than 2: Edmond Bedrossian, Panos Papaspyridakos, France Lambert, Armando Lopes, Joseph Kan, Michael Pikos, and Nikolaos Soldatos. Added in the wider pass: Jan Cosyn (Straumann, GBR), Ana Ferro (Nobel, full arch), and Tara Aghaloo (BioHorizons, GBR and full arch).",
+      "A later pass keeps the same activity bar and allows the topic evidence to fall any time from 11 Nov 2021 through 11 Nov 2026. Added on that rule: Daniel Thoma (Straumann, immediate and GBR), Craig Misch, Edward P. Allen, and Georgios Romanos (BioHorizons; Misch also full arch), Dennis Tarnow (MegaGen, immediate), Maurício Araújo (Geistlich, GBR and immediate), and Cristian Dinu (MegaGen, GBR).",
       "Still off the map, because the public record did not show more than 2 items in that window. From your sheet: Gabor Tepper, Paulo Carvalho, Bernardo Nunes de Sousa, Gustavo Giordani, and Tomasz Kaczyński. Also off: Eirik Salvesen, Sergio Piano, Stephen Chen, Enrico Agliardi, Ana Filipa Gonçalves, Gonçalo Seguro Dias, Katie Blake, Amit Mistry, David Zelig, Mirela Shveys, Nargiz Schmidt, Komal Majumdar, Francesco Zingari, Ivica Dubravica, Sankalp Mittal, Alfonso Gil, Marcus Beschnidt, Alexandre Marques, Giuliano Luchi, Ivete Sartori, Howard Gluckman, Luciano Retana, Adam Foleck, Geoffrey Cunningham, Brian Bray, Ed McGlumphy, and Carl Drago. ZimVie stays with an empty clinician row.",
-      "Considered and not placed: Daniel Thoma and Dennis Tarnow have many papers, and no 2025–2026 company education roster in this set named them. Georgios Romanos is on a BioHorizons course list, but that listing did not state an immediate, full-arch, or GBR title.",
+      "Checked again and not placed. Abdelsalam Elaskary has immediate-implant and connective-tissue papers, but only two dental papers in the activity window. His BioHorizons NYU day is 30 Nov 2026, after the cutoff. Bach Le is named at the April 2026 BioHorizons symposium and at the Verona course on 18–19 Sep 2026, which is two activities, and the PubMed hits for Le BT were other people. Marius Steigmann has that symposium plus one paper. Tomas Linkevičius has three implant papers in the window, including an immediate-placement trial, but the current English MINEC page does not name him.",
       "Your sheet says ILIPEO. Neodent’s institute is ILAPEO, the Latin American Institute of Dental Research and Education in Curitiba, founded by Geninho Thomé.",
       "Your sheet says Bernardo Nunes de Sausa. His public spelling is Bernardo Nunes de Sousa. He did not reach more than two documented activities and is not on the map.",
       "R G Meda is Ramón Gómez Meda. Kaczynski Tomasz is Tomasz Kaczyński. Kaczyński did not reach more than two documented activities and is not on the map.",
@@ -662,6 +663,45 @@ window.KOL_DATA = {
             "https://pubmed.ncbi.nlm.nih.gov/42834617/",
             "https://pubmed.ncbi.nlm.nih.gov/41185408/"
           ]
+        },
+        {
+          "id": "thoma",
+          "name": "Daniel S. Thoma",
+          "short": "D. Thoma",
+          "aliases": [
+            "Daniel Thoma",
+            "Daniel Toma",
+            "Thoma DS"
+          ],
+          "country": "Switzerland",
+          "primary": "IMM",
+          "topics": [
+            "IMM",
+            "GBR"
+          ],
+          "role": "Immediacy and guided bone regeneration",
+          "bio": "The ITI Congress Nordic program lists him for “How immediacy on the restorative level changes daily practice” on 12 Jun 2026 in Gothenburg. A 2026 case series lists him on polished-collar implants placed with simultaneous guided bone regeneration. The Straumann course page spells the same speaker Daniel Toma.",
+          "assignment": "The Nordic lecture title sets the primary key as immediate. The guided-bone-regeneration paper is the second key. The brand link is the Straumann ITI course.",
+          "confidence": "high",
+          "seed": "research",
+          "links": [
+            {
+              "label": "ITI Nordic program",
+              "url": "https://congressnordic.iti.org/program/"
+            },
+            {
+              "label": "Straumann course 28514",
+              "url": "https://www.straumann.com/group/za/en/home/customers-and-solutions/training-education-science/local-international-courses.detail.course.28514.html"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "A quoted search for Thoma DS returned many PubMed records in the window. Opened titles that list him include simultaneous guided bone regeneration, implant timing and peri-implant healing, and a three-year zirconia-versus-titanium trial with Ronald Jung. He also lectured at ITI Congress Nordic in Gothenburg on 12 Jun 2026. A digital-regeneration session at Osteology Vienna did not state an immediate, full-arch, or GBR title and was not used as the topic link.",
+          "sources": [
+            "https://congressnordic.iti.org/program/",
+            "https://www.straumann.com/content/dam/media-center/iti/nordics/ITI_Nordic_congress_and_Corporate_Forum.pdf",
+            "https://pubmed.ncbi.nlm.nih.gov/42746822/",
+            "https://pubmed.ncbi.nlm.nih.gov/42849906/"
+          ]
         }
       ]
     },
@@ -929,23 +969,13 @@ window.KOL_DATA = {
         "blurb": "Shared education arm for BioHorizons and Camlog. Courses in 2026 include immediacy, FP1 full arch, and soft-tissue augmentation. The Oral Reconstruction Foundation, associated with this group, also ran a 2025 consensus on immediacy.",
         "faculty": [
           {
-            "name": "Georgios Romanos",
-            "note": "Same NYU program. Immediate-loading researcher at Stony Brook. Individual 2026 title not captured.",
-            "url": "https://www.bhclgroup.com/en/education"
-          },
-          {
             "name": "Abdelsalam Elaskary",
-            "note": "Same NYU program. Individual title not captured.",
-            "url": "https://www.bhclgroup.com/en/education"
+            "note": "Named on the NYU program for a vestibular-socket day on 30 Nov 2026, which is after the activity cutoff. Two dental papers in the window. A diabetic-nephropathy record under a similar name is not his. He stays off the branch.",
+            "url": "https://biohorizons.com/education/getfile?filename=SPMP25185REVBNYUInternationaladvancedprogram2026BHCLbrochure2.pdf"
           },
           {
             "name": "Bach Le",
-            "note": "Listed with Gómez Meda for a September 2026 Verona course. No lecture title on the listing.",
-            "url": "https://www.bhclgroup.com/en/education"
-          },
-          {
-            "name": "Edward P. Allen, Craig Misch",
-            "note": "Named on the 2026 BioHorizons Global Symposium speaker list. Per-talk topics were not captured. Allen is a soft-tissue surgeon and Misch publishes on bone and implants. Tara Aghaloo is on the GBR/CTG branch.",
+            "note": "Named on the April 2026 BioHorizons Global Symposium list and with Gómez Meda for Verona on 18–19 Sep 2026. That is two activities. PubMed hits for Le BT in the window were other people.",
             "url": "https://www.biohorizonscamlog.es/fileadmin/user_upload/04_Events/Events_BHCL/2026/04-16-18_BH_global_symposium_2026_SPMP25138.pdf"
           },
           {
@@ -1160,6 +1190,110 @@ window.KOL_DATA = {
             "https://pubmed.ncbi.nlm.nih.gov/42752498/",
             "https://pubmed.ncbi.nlm.nih.gov/41732077/"
           ]
+        },
+        {
+          "id": "misch",
+          "name": "Craig M. Misch",
+          "short": "C. Misch",
+          "aliases": [
+            "Craig Misch",
+            "Misch CM"
+          ],
+          "primary": "GBR",
+          "topics": [
+            "GBR",
+            "FA"
+          ],
+          "role": "Vertical bone augmentation",
+          "bio": "The 2026 BioHorizons Global Symposium program gives him “Treatment options for deficient vertical height” on 16–18 Apr 2026 in Miami Beach. A 2024 systematic review he coauthored is on bone augmentation with titanium mesh. A 2026 editorial he signed is titled All-on-X.",
+          "assignment": "The symposium lecture and the titanium-mesh review put him on GBR/CTG. The All-on-X editorial is the full-arch second key. It is an editorial, not a course title.",
+          "confidence": "high",
+          "seed": "research",
+          "links": [
+            {
+              "label": "2026 BioHorizons Global Symposium",
+              "url": "https://www.biohorizonscamlog.es/fileadmin/user_upload/04_Events/Events_BHCL/2026/04-16-18_BH_global_symposium_2026_SPMP25138.pdf"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "4 PubMed editorials in the window list Misch CM alone, all in International Journal of Oral Implantology, on implant success rates, All-on-X, patient-centred implant therapy, and evidence-based implant dentistry. He also lectured at the BioHorizons Global Symposium in Miami Beach on 16–18 Apr 2026.",
+          "sources": [
+            "https://www.biohorizonscamlog.es/fileadmin/user_upload/04_Events/Events_BHCL/2026/04-16-18_BH_global_symposium_2026_SPMP25138.pdf",
+            "https://pubmed.ncbi.nlm.nih.gov/39283219/",
+            "https://pubmed.ncbi.nlm.nih.gov/42268051/",
+            "https://pubmed.ncbi.nlm.nih.gov/42746816/"
+          ]
+        },
+        {
+          "id": "allen",
+          "name": "Edward P. Allen",
+          "short": "E. Allen",
+          "aliases": [
+            "Edward Allen",
+            "Allen EP"
+          ],
+          "credentials": "DDS, PhD",
+          "city": "Dallas",
+          "country": "United States",
+          "primary": "GBR",
+          "topics": [
+            "GBR"
+          ],
+          "role": "Soft-tissue grafting at teeth and implants",
+          "bio": "The 2026 BioHorizons Global Symposium gives him “Advantages of the coronally advanced tunnel with acellular dermal matrix for soft tissue grafting at teeth and implant sites,” plus a hands-on on soft-tissue grafting with allografts and xenografts. A 2025 paper lists him on the modified coronally advanced tunnel for mucosal recessions at dental implants. BioHorizons prints his credentials and Dallas, Texas, on its soft-tissue product pages.",
+          "assignment": "The symposium title is connective-tissue grafting and its acellular-dermal-matrix alternative, which is the GBR/CTG key. The same meeting is the BioHorizons link.",
+          "confidence": "high",
+          "seed": "research",
+          "links": [
+            {
+              "label": "2026 BioHorizons Global Symposium",
+              "url": "https://www.biohorizonscamlog.es/fileadmin/user_upload/04_Events/Events_BHCL/2026/04-16-18_BH_global_symposium_2026_SPMP25138.pdf"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "2 PubMed papers in the window list Allen EP: oral and periodontal vascularization, and esthetic crown lengthening. The Miami Beach symposium on 16–18 Apr 2026 is the third activity. The workshop and the lecture are the same meeting and were counted once. Dallas courses dated 13 Nov 2026 and later were not counted.",
+          "sources": [
+            "https://www.biohorizonscamlog.es/fileadmin/user_upload/04_Events/Events_BHCL/2026/04-16-18_BH_global_symposium_2026_SPMP25138.pdf",
+            "https://www.biohorizons.com/products/novomatrix",
+            "https://pubmed.ncbi.nlm.nih.gov/42419392/",
+            "https://pubmed.ncbi.nlm.nih.gov/39888150/"
+          ]
+        },
+        {
+          "id": "romanos",
+          "name": "Georgios E. Romanos",
+          "short": "G. Romanos",
+          "aliases": [
+            "Georgios Romanos",
+            "Romanos GE"
+          ],
+          "credentials": "Professor",
+          "city": "Stony Brook",
+          "country": "United States",
+          "primary": "GBR",
+          "topics": [
+            "GBR"
+          ],
+          "role": "Ridge augmentation",
+          "bio": "Professor of periodontics at Stony Brook University, with a second appointment in Frankfurt. A 2022 case report lists him on mesh ridge augmentation. BioHorizons Camlog names him on the NYU advanced program. That program runs 30 Nov–3 Dec 2026, after the activity cutoff, and the public listing does not print his lecture title.",
+          "assignment": "The mesh ridge-augmentation paper is the GBR/CTG evidence inside the five-year topic window. The BioHorizons education page is the brand link. The NYU dates were not counted as an activity. Sinus-lift and composite papers were not used as the topic.",
+          "confidence": "medium",
+          "seed": "research",
+          "links": [
+            {
+              "label": "NYU program brochure",
+              "url": "https://biohorizons.com/education/getfile?filename=SPMP25185REVBNYUInternationaladvancedprogram2026BHCLbrochure2.pdf"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "3 PubMed papers in the window are his and are about implants or bone: a hydraulic sinus-lift review, an allograft bone-block case in the edentulous maxilla, and delayed implants in large buccal defects. Composite, adhesive, and vertigo papers were not counted. The sinus-lift paper is an activity and is not GBR.",
+          "sources": [
+            "https://biohorizons.com/education/getfile?filename=SPMP25185REVBNYUInternationaladvancedprogram2026BHCLbrochure2.pdf",
+            "https://pubmed.ncbi.nlm.nih.gov/36516867/",
+            "https://pubmed.ncbi.nlm.nih.gov/42551887/",
+            "https://pubmed.ncbi.nlm.nih.gov/42406926/",
+            "https://pubmed.ncbi.nlm.nih.gov/40343917/"
+          ]
         }
       ]
     },
@@ -1254,7 +1388,7 @@ window.KOL_DATA = {
         "short": "MINEC",
         "full": "MINEC — MegaGen International Network of Education and Clinical Research",
         "website": "https://imegagen.com/about/about_megagen/minec/",
-        "blurb": "MegaGen’s scientific and education network. Public pages describe webinars, hands-on courses, and the MINEC School. Ki-Tae Koo remains because a public MegaGen page names him and his papers state alveolar augmentation. Howard Gluckman had two papers in the window, which is not more than two, so he stays off the branch.",
+        "blurb": "MegaGen’s scientific and education network. Public pages describe webinars, hands-on courses, and the MINEC School. Ki-Tae Koo and Cristian Dinu are named on the current MINEC page. Dennis Tarnow spoke at MegaGen’s June 2026 symposium. Howard Gluckman had two papers in the window, which is not more than two, so he stays off the branch.",
         "faculty": [
           {
             "name": "Kwang Bum Park",
@@ -1288,11 +1422,6 @@ window.KOL_DATA = {
           },
           {
             "name": "Mark Kwon",
-            "note": "Named on the MINEC page. Topic not stated there.",
-            "url": "https://imegagen.com/about/about_megagen/minec/"
-          },
-          {
-            "name": "Cristian Dinu",
             "note": "Named on the MINEC page. Topic not stated there.",
             "url": "https://imegagen.com/about/about_megagen/minec/"
           }
@@ -1335,6 +1464,84 @@ window.KOL_DATA = {
             "https://imegagen.com/about/about_megagen/minec/"
           ],
           "activity": "8 PubMed records list Koo KT in that window. Opened titles cover peri-implant tissue, membranes, and vertical ridge augmentation."
+        },
+        {
+          "id": "tarnow",
+          "name": "Dennis P. Tarnow",
+          "short": "D. Tarnow",
+          "aliases": [
+            "Dennis Tarnow",
+            "Tarnow DP"
+          ],
+          "credentials": "DDS",
+          "city": "New York",
+          "country": "United States",
+          "primary": "IMM",
+          "topics": [
+            "IMM",
+            "FA",
+            "GBR"
+          ],
+          "role": "Immediate placement and esthetic soft tissue",
+          "bio": "Clinical professor of periodontology at Columbia University, with a practice in New York. MegaGen’s report of his lecture at the 19th MegaGen International Symposium, Toronto, 20–21 Jun 2026, says the talk covered immediate implant placement and loading. Papers in the five-year window include the Liquid Pin method for immediate full-arch provisionals and the triple-layer graft for esthetically compromised implants. Nobel Biocare co-organized the Toronto meeting. He is drawn once, on MegaGen, because that is the company roster that names the lecture.",
+          "assignment": "The MegaGen report of the Toronto lecture states immediate implant placement and loading, so the primary key is immediate. The full-arch and soft-tissue papers are the other two keys.",
+          "confidence": "high",
+          "seed": "research",
+          "links": [
+            {
+              "label": "Lecture list",
+              "url": "https://www.drtarnow.com/lectures"
+            },
+            {
+              "label": "MegaGen Toronto report",
+              "url": "https://imegagen.com/?kboard_content_redirect=429"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "3 PubMed papers in the window list Tarnow DP: a labial recession defect, inverted body-shift implants in the esthetic zone, and implant complications. He spoke at the MegaGen symposium in Toronto on 20–21 Jun 2026. His own lecture list also shows a Southern Implants conference on 30 Mar 2026 and a Tarnow/Chu course on 12–13 Mar 2026. A Warsaw course on 19–20 Feb 2027 is after this window.",
+          "sources": [
+            "https://www.drtarnow.com/lectures",
+            "https://imegagen.com/?kboard_content_redirect=429",
+            "https://www.dental-tribune.com/c/megagen-implants/news/megagen-symposium-reviews-50-years-of-implant-dentistry/",
+            "https://pubmed.ncbi.nlm.nih.gov/42145248/",
+            "https://pubmed.ncbi.nlm.nih.gov/40049621/",
+            "https://pubmed.ncbi.nlm.nih.gov/39523471/"
+          ]
+        },
+        {
+          "id": "dinu",
+          "name": "Cristian Dinu",
+          "short": "C. Dinu",
+          "aliases": [
+            "Dinu C"
+          ],
+          "credentials": "Professor",
+          "city": "Cluj-Napoca",
+          "country": "Romania",
+          "primary": "GBR",
+          "topics": [
+            "GBR"
+          ],
+          "role": "Guided bone regeneration",
+          "bio": "Professor of oral and maxillofacial surgery at the Iuliu Hațieganu University in Cluj-Napoca. The current MINEC page names him. A December 2025 paper lists him on a comparison of membranes for guided bone regeneration. Earlier papers in the five-year window test eggshell membrane for implant guided bone regeneration.",
+          "assignment": "The MINEC page is the brand link and does not state a topic. The guided-bone-regeneration papers do, so the branch is GBR/CTG and the confidence stays medium.",
+          "confidence": "medium",
+          "seed": "research",
+          "links": [
+            {
+              "label": "MINEC",
+              "url": "https://imegagen.com/about/about_megagen/minec/"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "4 PubMed papers in the window list this Cristian Dinu on dental implants or guided bone regeneration: a membrane comparison, survival of a machined long-neck implant, robot-assisted implant navigation, and CBCT of the lingual foramen before implant placement. Head-and-neck imaging reviews that are not implant papers were not counted.",
+          "sources": [
+            "https://imegagen.com/about/about_megagen/minec/",
+            "https://cdn.umfcluj.ro/uploads/2025/10/CV-Prof.dr_.-Dinu_Cristian.pdf",
+            "https://pubmed.ncbi.nlm.nih.gov/41595955/",
+            "https://pubmed.ncbi.nlm.nih.gov/41848046/",
+            "https://pubmed.ncbi.nlm.nih.gov/42345936/"
+          ]
         }
       ]
     },
@@ -1476,7 +1683,7 @@ window.KOL_DATA = {
         "short": "Osteology",
         "full": "Geistlich Regeneration Academy / Osteology Foundation",
         "website": "https://www.geistlich.com/regeneration-academy/authors/istvan-urban",
-        "blurb": "Osteology Foundation is the independent regeneration education body long associated with Geistlich biomaterials. Istvan Urban is the clearest public GBR educator on their author list.",
+        "blurb": "Osteology Foundation is the independent regeneration education body long associated with Geistlich biomaterials. Istvan Urban is the clearest public GBR educator on their author list. Maurício Araújo taught ridge preservation at Osteology Vienna in April 2026.",
         "faculty": []
       },
       "kols": [
@@ -1575,6 +1782,47 @@ window.KOL_DATA = {
             "https://www.osteology-vienna.org/programme/25-april-2026",
             "https://www.quintessence-publishing.com/usa/en/event/osteology-florence-2025",
             "https://pubmed.ncbi.nlm.nih.gov/?term=%22Avila-Ortiz+G%22"
+          ]
+        },
+        {
+          "id": "araujo",
+          "name": "Maurício Araújo",
+          "short": "M. Araújo",
+          "aliases": [
+            "Mauricio Araújo",
+            "Mauricio Araujo",
+            "Araujo MG",
+            "Araújo MG"
+          ],
+          "credentials": "DDS, MSc, PhD",
+          "city": "Maringá",
+          "country": "Brazil",
+          "primary": "GBR",
+          "topics": [
+            "GBR",
+            "IMM"
+          ],
+          "role": "Ridge preservation and immediate implant placement",
+          "bio": "Chairman of the Perio/Implant Research Unit at the State University of Maringá, and in private practice in Rio de Janeiro. At the International Osteology Symposium in Vienna, 23–25 Apr 2026, he moderated the ridge-preservation session and taught the workshop on modern alveolar ridge preservation. A 2026 paper lists him on the buccal gap after immediate implant placement. A 2025 experimental paper with Istvan Urban is on regeneration of chronic vertical alveolar defects.",
+          "assignment": "Osteology is the education body already used for this brand. The Vienna session is ridge preservation, filed here under GBR/CTG. Immediate placement is the second key, from his papers. A Geistlich lecture in Buffalo on 29 Sep 2025 is before the activity window and was not counted.",
+          "confidence": "high",
+          "seed": "research",
+          "links": [
+            {
+              "label": "Osteology Vienna program",
+              "url": "https://www.osteology-vienna.org/programme/overview"
+            }
+          ],
+          "photoNote": "No public headshot was saved. The circle shows initials.",
+          "activity": "3 PubMed papers in the window are this Maurício Araújo: a sole-author ridge-preservation review, the buccal-gap study of immediate implant placement, and a 10-year study of keratinized mucosa around implants. A third-molar imaging review under Araujo MG is a different author group and was not counted. He also taught at Osteology Vienna on 23–25 Apr 2026.",
+          "sources": [
+            "https://www.osteology-vienna.org/programme/overview",
+            "https://www.osteology-vienna.org/assets/z_dokumente_OLD/OF-IOS26-Programme-A4-08-digital-lr__002_.pdf",
+            "https://www.quintessence-publishing.com/deu/de/author/816814/araujo-mauricio",
+            "https://pubmed.ncbi.nlm.nih.gov/42015906/",
+            "https://pubmed.ncbi.nlm.nih.gov/41823398/",
+            "https://pubmed.ncbi.nlm.nih.gov/41906210/",
+            "https://pubmed.ncbi.nlm.nih.gov/39575990/"
           ]
         }
       ]
